@@ -1,7 +1,8 @@
 streamlit
 langchain
+langchain-community
 langchain-groq
 langchain-huggingface
 langchain-chroma
 chromadb
-pysqlite3-binary ; sys_platform == 'linux'
+pysqlite3-binary
