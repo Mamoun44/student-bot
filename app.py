@@ -8,7 +8,7 @@ import os
 from langchain_groq import ChatGroq
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_chroma import Chroma
-#from langchain.chains import RetrievalQA
+from langchain.chains import RetrievalQA
 from langchain_community.document_loaders import CSVLoader
 
 # عنوان الصفحة
@@ -69,3 +69,4 @@ if api_key:
     except Exception as e:
 
         st.error(f"حدث خطأ: {e}")
+
